@@ -8,6 +8,7 @@
 
 - __[Curso de Python 3 – Mundo 01: Fundamentos](https://www.cursoemvideo.com/course/curso-python-3/)__
 - __[Curso Python para Zumbis](https://www.pycursos.com/python-para-zumbis/)__
+- __[Curso Introdução à Ciência da Computação com Python Parte 1 - Coursera|USP](https://pt.coursera.org/learn/ciencia-computacao-python-conceitos)__
 
 ## Livros:
 
