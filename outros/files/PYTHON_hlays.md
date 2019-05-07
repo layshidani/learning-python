@@ -1,9 +1,11 @@
-***Lays Marie Hidani - Notebook***
+
+#### *Lays Marie Hidani - Notebook*
+
 # Python
 
 - Linguagem de alto nível (mais próximo da linguagem humana)
 - Multiplataforma
-- Open source
+- Opensource
 - Forte no mercado
 - Forte suporte da comunidade
 - Forte documentação
@@ -20,34 +22,34 @@ Documentação oficial: <https://www.python.org/doc/>
 
 - Convenções de estilo completa. verificar PEP 8 <https://www.python.org/dev/peps/pep-0008/#code-lay-out>
 
-    - Ex:
-
+    - Ex:     
+    
     -> não é legal
-    import os, math
-
-
+    import os, math 
+    
+    
     -> o melhor é:
     import os
     import math
-
-    mas, pode se for from-import:
+    
+    mas, pode se for from-import: 
     from subprocess import Popen, PIPE
-
-
+    
+    
     -> outro ex:
-
+    
     Yes: x = 8*5 + 4*3   -> separar apenas operadores de diferentes prioridades
     Yes: i = i + 1
-
-    NO: x = 8 * 5 + 4 * 3
-
-
+    
+    NO: x = 8 * 5 + 4 * 3 
+    
+    
     -> outro ex:
-
+    
     Yes: if x == 4: print x, y; x, y = y, x
     No:  if x == 4 : print x , y ; x , y = y , x
-
-
+    
+              
 - (#) Utiliza-se # seguido do texto, para inserir comentários no código. Esses comentários não serão vísiveis no programa, somente no código e auxiliam a organizar e informar sobre trechos do código tanto para você mesmo quanto para trabalhos em equipe.
 
 - Há uma convenção de que não se deve usar mais do que 72 caractéres por linha no código, a fim de torná-lo mais legível e organizado.
@@ -56,74 +58,74 @@ Documentação oficial: <https://www.python.org/doc/>
 
 - Quando o texto de uma string é muito longo, usa-se '''texto''' -> 3 haspas ao invés de 1.
 
-- A contagem de posição de um caracter ou elemento sempre começa em 0, ou seja:
-
-    'Olá' ->
+- A contagem de posição de um caracter ou elemento sempre começa em 0, ou seja: 
+    
+    'Olá' -> 
     O = posição 0
-
+    
     l = posição 1
-
+    
     á = posição 2
-
-
+    
+    
     ex:
     lista = [1, 2, 3]
-
-    1 = posição 0
-
-    2 = posição 1
-
+    
+    1 = posição 0 
+    
+    2 = posição 1 
+    
     3 = posição 2
-
+    
 - Utiliza-se -1, -2, -3, n para contar inversamente. (do último para o primeiro)
 
 - Você pode unir strings em um **print** utlizando (+):
     * Exemplo:
-
+    
     first_name = 'Lays'
-
+    
     middle_name = 'Marie'
-
+    
     print('O nome é: ' + first_name + middle_name)
-
+    
 - Você pode unir diferentes tipos de dados em um **print** utlizando (,):
     * Exemplo:
-
+    
     first_name = 'Lays'
-
+    
     middle_name = 'Marie'
-
+    
     age = 28
-
+    
     print('O nome é: ', first_name, middle_name, '. ' 'Idade: ', 28, ' anos.')
-
-
+    
+ 
 - Em **print** Utiliza-se {} para preencher um texto (string) com um valor e depois utiliza-se *'.format(variavel ou expressão)'* para associar o valor.
 
     * exemplo:
-
+    
     - nome = 'Lays'
-
+    
     - print('Meu nome é {}' .format(nome))
-
+    
         - resultado esperado: >>> *Meu nome é Lays*
-
-
+        
+    
 - Utiliza-se {:.xf} -> x é o número de casas decimais
-
+    
     - {:.2f} por exemplo para imprimir um float com duas casas decimais
-
+    
     - print('10 divido por 3 = {:.2f}' .format(10 / 3))
-
+    
         - resultado esperado:  >>>  *10 dividido por 3 = 3.33*
-
-
+        
+    
 - Utiliza-se {:,} para separar um nº grande por ','.
 
     - numero = 1000000
-
+    
     - print('O nº é {:,}' .format(numero))
-
+     
          - resultado esperado:   >>> 1,000,000
 
 
@@ -165,26 +167,26 @@ except	lambda	yield
     * (float)   -> Ponto flutuante/Decimal -> ex: 4.81 (em Python, usa-se '.' ao invés de ',').
     * (long)    -> Longo -> ex: 25989506564809890
     * (complex) -> Complexos -> ex: 5 + 8j
-
-
+ 
+ 
 - String (texto):
     * (str)     -> Texto -> ex: 'letra', '10', 'Olá mundo!' (em python, toda string vai dentro de '')
     * (unicode) -> Unicode
-
-
+  
+  
 - List (listas):
     * list = [ ]
-
-        ex:
-
+        
+        ex: 
+        
         lista_1 = [0, 1, 2, 3]
         lista_2 = [0, '1', '2', 3, 'livro']
-
-
+    
+    
 - Tuplas:
     (A diferença das tuplas para as listas, é que as tuplas são IMUTÁVEIS)
     * Tupla = ( )
-
+    
     ex:
     tupla1 = (0, 1, 2)
 
@@ -192,23 +194,23 @@ except	lambda	yield
 
 - Booleanos:
     * (bool):
-
-    -> True
+    
+    -> True 
     -> False
-
-
+    
+    
 - Conjuntos:
     * set
     * frozenset
-
-
+   
+   
 - None
 
 
 
 ## Operadores aritméticos
 
-- soma           ->   (+)   ->  ex: 8 + 4
+- soma           ->   (+)   ->  ex: 8 + 4 
 - subtração      ->   (-)   ->  ex: 8 - 4
 - multiplicação  ->   (*)   ->  ex: 8 * 4
 - divisão        ->   (/)   ->  ex: 8 / 4
@@ -230,11 +232,11 @@ except	lambda	yield
 ## Operadores lógicos
 
 - and   ->  ex: if x > 2 **and** y > 3
-
+    
 - or    ->  ex: if x > 2 **or** y > 3
-
+    
 - not   ->  ex: if x **not** in lista
-
+    
 
 ## Entrada e saída de dados
 
@@ -268,10 +270,10 @@ print('----' * 25)
 glossario = {
     'string': 'Sequência linear de caracteres. Itens são acessados via índice'
               '\n>>> Ex: \'Isso é uma string\'\n',
-    'lista': 'Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos '
+    'lista': 'Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos ' 
              '\n(listas, strings, inteiros, etc). Itens são acessados via índice'
              '\n>>>Ex: lista = [elemento1, elemento2, elemento3]\n',
-    'tupla': 'Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos '
+    'tupla': 'Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos ' 
              '\nPorém, diferentemente das listas, são imutáveis!'
              '\n>>>Ex: tupla = (elemento1, elemento2, elemento3)\n',
     'range': 'Intervalo sequenciado de números inteiros. O índice começa em 0, por isso o último nº \nnão entra na '
@@ -289,30 +291,30 @@ print('----' * 30)
     ----------------------------------------------------------------------------------------------------
     :Glossário de programação
     ----------------------------------------------------------------------------------------------------
-
+    
     :::String:::
     Significado -> Sequência linear de caracteres. Itens são acessados via índice
     >>> Ex: 'Isso é uma string'
-
-
+    
+    
     :::Lista:::
-    Significado -> Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos
+    Significado -> Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos 
     (listas, strings, inteiros, etc). Itens são acessados via índice
     >>>Ex: lista = [elemento1, elemento2, elemento3]
-
-
+    
+    
     :::Tupla:::
-    Significado -> Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos
+    Significado -> Sequência linear de valores (elementos) que podem ser de qualquer e de diferentes tipos 
     Porém, diferentemente das listas, são imutáveis!
     >>>Ex: tupla = (elemento1, elemento2, elemento3)
-
-
+    
+    
     :::Range:::
-    Significado -> Intervalo sequenciado de números inteiros. O índice começa em 0, por isso o último nº
-    não entra na sequência
+    Significado -> Intervalo sequenciado de números inteiros. O índice começa em 0, por isso o último nº 
+    não entra na sequência 
     >>>Ex: range(0,11) irá criar um intervalo de 0 a 10
-
-
+    
+    
     :::Dicionario:::
     Significado -> Coleção associativa desordenada. O valor é acessado por uma **chave** imutável e não por indice
     >>>Ex: dicionário = {chave1: valor1, chave2: valor2}
@@ -331,8 +333,8 @@ print('----' * 30)
 
   - (+)
   - (*)
-
-
+  
+  
   ex:
 
 
@@ -361,7 +363,7 @@ print(string5 * 5)
 ```
 
     oi, tudo bem?
-    oi, oi, oi, oi, oi,
+    oi, oi, oi, oi, oi, 
     25
     22222
     7
@@ -426,13 +428,13 @@ print('Texto convertido para primeira letra de cada palavra em maiúscula: ' + t
 
 ```
 
-    Texto antes:    Olá mundo!
+    Texto antes:    Olá mundo!   
     Texto sem espaços em branco: Olá mundo!
     Texto sem espaços em branco à direita:    Olá mundo!
-    Texto sem espaços em branco à esquerda: Olá mundo!
-    Texto convertido para letras minúsculas:    olá mundo!
-    Texto convertido para letras maiúsculas:    OLÁ MUNDO!
-    Texto convertido para primeira letra de cada palavra em maiúscula:    Olá Mundo!
+    Texto sem espaços em branco à esquerda: Olá mundo!   
+    Texto convertido para letras minúsculas:    olá mundo!   
+    Texto convertido para letras maiúsculas:    OLÁ MUNDO!   
+    Texto convertido para primeira letra de cada palavra em maiúscula:    Olá Mundo!   
 
 
 
@@ -469,14 +471,14 @@ print('\nPosição da palavra na frase: {}' .format(texto_3.find('gosta')))
 
 
 #ao invés de uma palavra, pode encontrar uma letra (a 1ª vez que ela aparecer na string)
-print('\nPosição do caracter na frase: {}' .format(texto_3.find('i')))
+print('\nPosição do caracter na frase: {}' .format(texto_3.find('i'))) 
 ```
 
     Antes a frase era assim: Maria gosta de televisão.
     Agora a frase ficou assim: Maria gosta de videogame.
-
+    
     Posição da palavra na frase: 6
-
+    
     Posição do caracter na frase: 3
 
 
@@ -485,7 +487,7 @@ print('\nPosição do caracter na frase: {}' .format(texto_3.find('i')))
 #Exemplo de uso de .split()
 
 #Com uma frase
-texto_4 = '''Este é o mundo em que vivemos. Pessoas se dando bem em cima dos erros alheios
+texto_4 = '''Este é o mundo em que vivemos. Pessoas se dando bem em cima dos erros alheios 
 para manipularem e usarem uns aos outros. (Mr Robot)'''
 
 print(texto_4.split())
@@ -552,11 +554,11 @@ print('Somador de número inteiro'.center(40, '-'))
 
 ```python
 texto_4 ='''
-Mudamos o mundo todos os dias.
-Mas para mudar o mundo de um jeito significativo,
-leva muito mais tempo do que as pessoas têm.
-Nunca acontece ao mesmo tempo.
-É devagar. É metódico. É exaustivo.
+Mudamos o mundo todos os dias. 
+Mas para mudar o mundo de um jeito significativo, 
+leva muito mais tempo do que as pessoas têm. 
+Nunca acontece ao mesmo tempo. 
+É devagar. É metódico. É exaustivo. 
 Nem todos temos o estômago para isso.
 '''
 
@@ -569,7 +571,7 @@ print('O texto tem {} caracteres.' .format(len(texto2)))
 
 # Fatiar uma string, Listas
 
-Começa a contar de 0
+Começa a contar de 0 
 e soma +1 ao último nº, pois o python não exibe a última posição.
 
 Utiliza-se -1, -2, -3, n para contar inversamente.
@@ -608,7 +610,7 @@ print('Da posição -1: {}' .format(lista[-1:]))
     Da posição 4 até posição 8: lele
     Da posição inicial até posição 4: para
     Da posição 8 até posição final: pipedo
-
+    
      [0, 1, 2, 3, 4, 5]
     Da posição 2 até posição 4: [2, 3]
     Da posição inicial até posição 4: [0, 1, 2, 3]
@@ -647,8 +649,8 @@ print('O menor número da sequência é {}' .format(min(5, 6, 2, 8)))
 def nome_da_função(parâmetro):      -> Tanto pode conter um parâmetro quanto não. Depende do caso </br>
     '''Comentário sobre o que a função faz (Docstring)'''
     </br>  Ações da função indentadas
-
-
+       
+    
 
 *Sempre usar 2 linhas em branco antes e depois de cada função*
 EX:
@@ -656,20 +658,20 @@ EX:
 
 ```python
 # aqui a variável 'nome' é o parâmetro da função
-def ola(nome):
+def ola(nome): 
     '''Saúda uma pessoa pelo nome'''
-    print('\nOlá, ' + nome + '. É um prazer te conhecer!')
+    print('\nOlá, ' + nome + '. É um prazer te conhecer!') 
 
 # Aqui recebemos do usuário um input que informará a variável 'nome'
-nome = str(input('\nQual é o seu nome? ').strip().title())
+nome = str(input('\nQual é o seu nome? ').strip().title()) 
 
 # aqui chamamos a função e informamos qual é o argumento da variável 'nome'
-ola(nome)
+ola(nome) 
 
 # agora o programa age sozinho e executa a função
 ```
 
-
+    
     Olá, Lays. É um prazer te conhecer!
 
 
@@ -679,7 +681,7 @@ ola(nome)
 def ola():
     '''exibe uma mensagem padrão'''
     print('\nOlá à todos! É um grande prazer recebê-los aqui!!!\n')
-
+    
 # Chamamos a função
 ola()
 
@@ -698,15 +700,14 @@ sorteia()
 
 ```
 
-
+    
     Olá à todos! É um grande prazer recebê-los aqui!!!
-
+    
     ---------------------------------------------
-
+    
     Outro exemplo:
     4
 
----
 
 # Anexos
 
@@ -733,28 +734,28 @@ Os editores de texto comuns, no entanto, não oferecem muitos recursos para edi�
     - Jupyterlab
     - Spyder
     - Outras
-
+    
 
 ## Editores de texto
 
 <!-- - __[Sublime Text](http://www.sublimetext.com)__ Por ser um editor de texto, é muito mais leve e abre muito mais rapidamente do que o PyCharm. Pode ser amplamente 'configurado'/'estilizado' para ficar ao gosto do programador.
     Complementos para deixar o Sublime text ainda melhor:
-    - __[Install Package Control](https://packagecontrol.io/installation#st3)__ Antes de tudo, instale o Install Package Control, com ele vai ficar muito mais fácil instalar outros package. (no Sublime 3, tecle CTRL + ', vai abrir um console na parte inferior, nele você vai colar o código que está no link do Install Package Control e teclar ENTER. Depois de instalado, basta teclar CTRL + p, e digitar no console que abrirá na parte superior:
-
+    - __[Install Package Control](https://packagecontrol.io/installation#st3)__ Antes de tudo, instale o Install Package Control, com ele vai ficar muito mais fácil instalar outros package. (no Sublime 3, tecle CTRL + ', vai abrir um console na parte inferior, nele você vai colar o código que está no link do Install Package Control e teclar ENTER. Depois de instalado, basta teclar CTRL + p, e digitar no console que abrirá na parte superior: 
+    
         - Install package (para instalar um novo plugin), ENTER, Nome do plugin, ENTER
-
+        
         - Remove package (para desinstalar um plugin), ENTER, Nome do plugin, ENTER
-
-        - Disable package (para desativar um plugin) // // //
-
-        - Enable package (para ativar um plugin) // // //
-
-
-
+        
+        - Disable package (para desativar um plugin) // // // 
+        
+        - Enable package (para ativar um plugin) // // // 
+     
+      
+    
     - Anaconda
-
+    
     - Python PEP8 Autoformat
-
+    
     - Jedi -->
 
 # Livros recomendados
@@ -787,11 +788,11 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
 - __[StackOverflow](https://stackoverflow.com)__ Fórum - em inglês
 
 
-### Para consultar
+### Para consultar 
 
 - __[Python.org](https://www.python.org/)__ (inglês) Página oficial do Python, dá para baixar o Python e tem acesso a toda a documentação.
 
-- __[The Python Guru:](https://thepythonguru.com/)__ (inglês) Um ótimo tutorial em texto sobre Python
+- __[The Python Guru:](https://thepythonguru.com/)__ (inglês) Um ótimo tutorial em texto sobre Python 
 
 - __[W3Schools:](https://www.w3schools.com/python/default.asp)__ (inglês) Vários exemplos e materiais
 
@@ -860,7 +861,7 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
     - __[Site Pessoal](https://www.kennethreitz.org/)__
     - __[Github](https://github.com/kennethreitz)__
     - __[Requests](http://docs.python-requests.org/pt_BR/latest/)__
-
+    
 - **Raymond Hettinger**
     - __[Site Pessoal](https://rhettinger.wordpress.com/)__
     - __[Github](https://github.com/rhettinger)__
@@ -872,33 +873,33 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
     * Tem certificado
     * Português
     * Ótimo para aprender o básico
-
-
+    
+    
 - **Python para Zumbis** <https://www.pycursos.com/python-para-zumbis/>
     * Ótimo curso, porém desatualizado (Python 2)
     * Dá para aprender bastante
-
-
+    
+    
 - **DataCamp** <https://www.datacamp.com/>
     * Tem certificado
     * Inglês
     * Bom para praticar, serve mais como um complemento
     * Tem cursos pagos também
-
-
-- **Udacity** <https://br.udacity.com>
+    
+    
+- **Udacity** <https://br.udacity.com> 
     * Não tem certificado para cursos gratuitos
     * Inglês
     * Recomendado já ter algum conhecimento básico
     * Tem cursos pagos também
-
-
+    
+    
 - **BitDegree** <https://stude.co/400073>
     * Tem certificado
     * Inglês
     * Bom para praticar, serve mais como um complemento
-
-
+    
+    
 - **PyCubator** <http://df.python.org.br/pycubator/>
     * Em forma de texto
     * Em inglês
@@ -934,12 +935,12 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
     obs: Tenho Comprei
 
 - **Curso Python 3 Avançado - Aprenda recursos avançados da linguagem Python**
-
+    
     * Plataforma: Udemy
     Link: <Acesso Udemy>
     Idioma: português
     Status: ainda não iniciado
-    Nota (0/5):
+    Nota (0/5): 
     obs: Tenho Comprei
 
 - **The Complete Python 3 Course: Beginner to Advanced!** - Learn Python with projects covering game & web development, web scraping, MongoDB, Django, PyQt, and data visualization!
@@ -952,7 +953,7 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
     obs: Tenho Comprei (Cupom 100% de desconto)
 
 - **The Python Mega Course: Build 10 Real World Applications** - The only Python course covering web, databases, web scraping, data science, web visualizations, image processing & more!
-
+   
     Plataforma: Udemy
     Link: <Acesso Udemy>
     Idioma: inglês
@@ -979,3 +980,6 @@ Alguns canais legais sobre Python
 - __[Castálio](https://itunes.apple.com/br/podcast/castalio-podcast/id446259197)__
 
 - __[Sudocast](https://www.sudocast.com.br/)__
+
+
+
