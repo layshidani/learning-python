@@ -892,73 +892,9 @@ __[Clique p/ acessar Minha Pasta no GDrive](https://drive.google.com/open?id=1Rn
     * Recomendado já ter algum conhecimento básico
     * Tem cursos pagos também
 
-
-- **BitDegree** <https://stude.co/400073>
-    * Tem certificado
-    * Inglês
-    * Bom para praticar, serve mais como um complemento
-
-
 - **PyCubator** <http://df.python.org.br/pycubator/>
     * Em forma de texto
     * Em inglês
-
-# Cursos feitos/tenho:
-
-- **Curso de Python 3 – Mundo 01: Fundamentos**
-
-    Plataforma: cursoemvideo.com
-    Link: <Acesso>
-    Idioma: português
-    Status: concluído
-    Nota (0/5): 4,8
-    obs: online - tem certificado
-    <extra>: Minha lista de exercícios resolvidos
-
-- **Python 3 COMPLETO - Do iniciante ao avançado!** - Guia DEFINITIVO da linguagem de programação mais usada por analistas de dados e Machine Learning do momento!
-
-    * Plataforma: Udemy
-    * Link: <Acesso Udemy>
-    * Idioma: português
-    * Status: cursando
-    * Nota (0/5): 4,5
-    * obs: Tenho Download
-
-- **PYTHON: Programação para Ciência e Engenharia** - Programação em Python, do básico ao avançado, com orientação para computação científica e engenharia.
-
-    * Plataforma: Udemy
-    Link: <Acesso Udemy>
-    Idioma: português
-    Status: cursando
-    Nota (0/5): 4,5
-    obs: Tenho Comprei
-
-- **Curso Python 3 Avançado - Aprenda recursos avançados da linguagem Python**
-
-    * Plataforma: Udemy
-    Link: <Acesso Udemy>
-    Idioma: português
-    Status: ainda não iniciado
-    Nota (0/5):
-    obs: Tenho Comprei
-
-- **The Complete Python 3 Course: Beginner to Advanced!** - Learn Python with projects covering game & web development, web scraping, MongoDB, Django, PyQt, and data visualization!
-
-    * Plataforma: Udemy
-    Link: <Acesso Udemy>
-    Idioma: inglês
-    Status: cursando
-    Nota (0/5): 4
-    obs: Tenho Comprei (Cupom 100% de desconto)
-
-- **The Python Mega Course: Build 10 Real World Applications** - The only Python course covering web, databases, web scraping, data science, web visualizations, image processing & more!
-
-    Plataforma: Udemy
-    Link: <Acesso Udemy>
-    Idioma: inglês
-    Status: cursando
-    Nota (0/5): 4
-    obs: Download
 
 ## Youtube
 
